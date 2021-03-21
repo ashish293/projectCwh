@@ -6,7 +6,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Delivery web</title>
 		<link rel="stylesheet" href="/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="/css/phone.css"
+			media="screen and (max-width: 700px)"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
+
 	<body>
 		<nav id="navbar">
 			<div id="logo">
@@ -21,9 +32,87 @@
 		</nav>
 		<section id="home">
 			<h1 class="h-primary">Welcome to The Engineer's Dhaba</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			<p>Lorem ipsum dolor sit amet consectetur elit.</p>
 			<button class="btn">Order Now</button>
 		</section>
+		<section class="service-container">
+			<h1 class="h-primary center">Our Services</h1>
+			<div id="services">
+				<div class="box">
+					<img src="/img/1.png" alt="" />
+					<h2 class="h-secondary center">Pizza</h2>
+					<p class="center">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+						quam ad at rerum eaque, aliquid numquam, cum vel totam voluptatibus
+						debitis perferendis eum! Assumenda quis obcaecati amet rerum fugiat
+						sequi mollitia? Illum quo dolorum eaque iusto perferendis, placeat
+					</p>
+				</div>
+				<div class="box">
+					<img src="/img/2.png" alt="" />
+					<h2 class="h-secondary center">Food Ordering</h2>
+					<p class="center">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+						quam ad at rerum eaque, aliquid numquam, cum vel totam voluptatibus
+						debitis perferendis eum! Assumenda quis obcaecati amet rerum fugiat
+						sequi mollitia? Illum quo dolorum eaque iusto perferendis, placeat
+					</p>
+				</div>
+				<div class="box">
+					<img src="/img/3.png" alt="" />
+					<h2 class="h-secondary center">Home Delivery</h2>
+					<p class="center">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+						quam ad at rerum eaque, aliquid numquam, cum vel totam voluptatibus
+						debitis perferendis eum! Assumenda quis obcaecati amet rerum fugiat
+						sequi mollitia? Illum quo dolorum eaque iusto perferendis, placeat
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="client-section">
+			<h1 class="h-primary center">Our Clients</h1>
+			<div id="clients">
+				<img src="/img/logo1.png" alt="" />
+				<img src="/img/logo2.png" alt="" />
+				<img src="/img/logo3.png" alt="" />
+				<img src="/img/logo4.png" alt="" />
+			</div>
+		</section>
+		<section id="contact">
+			<h1 class="h-primary center">Contact Us</h1>
+			<div id="contact-box">
+				<form action="">
+					<label for="name">Name:</label>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Enter your name"
+					/>
+					<label for="email">Email:</label>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Enter your email address"
+					/>
+					<label for="mobile">Mobile:</label>
+					<input
+						type="text"
+						id="phone"
+						name="mobile"
+						id="mobile"
+						placeholder="Enter your mobile number"
+					/>
+					<label for="message">Your Message:</label>
+					<textarea name="message" id="message" cols="30" rows="5"></textarea>
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+		</section>
+		<footer>
+			<div class="center">Copyright &copy; All rights reserved.</div>
+		</footer>
 	</body>
 </html>
